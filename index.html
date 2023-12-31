@@ -13,29 +13,56 @@
     .navbar {
       margin-bottom: 0;
       border-radius: 0;
+      background-color: black;
+    }
+
+    .jumbotron {
+      background-image: url(images/technical\ support.png);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
     }
     
     /* Add a gray background color and some padding to the footer */
     footer {
-      background-color: #f2f2f2;
+      background-color: rgb(74, 106, 143);
+      color: black;
       padding: 25px;
+      
     }
 
     #myname {
-      background-color: aquamarine;
+      background-color: black;
     }
 
     .col-sm-3{
-      color: aquamarine;
+      color: grey;
       border: solid;
       
     }
-    /* body {
-    
+    body {
+    background-color : black;
+    }
+
+    /* a:hover {
+  color: gold;
+  background-color: transparent;
     } */
+
+    /* a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+} */
+
+    /* #myName {
+      background-color: blue;
+    } */n
 
   </style>
 </head>
+
+
 <body>
 
 <nav class="navbar navbar-inverse">
@@ -46,69 +73,75 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Portfolio</a>
+      <a class="navbar-brand" href="#">JavaScript Portfolio</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav navbar-right">
         <li class="active"><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Gallery</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
+      
     </div>
   </div>
 </nav>
 
-<div class="jumbotron" >
-  <div class="container text-center" id="myname">
-    <h1>Bhabha</h1>      
-    <p>Tracy Akhona September</p>
+<div class="jumbotron" style="height: 500px">
+    <div class="container text-center" id="myname" style="background-color: transparent">
+    <p style="margin: 10px">I am,</p>
+    <h1 style="margin: 10px">Bhabha September</h1> 
   </div>
 </div>
   
 <div class="container-fluid bg-3 text-center" style="background-color: black">    
-  <h2 style="color:blueviolet"><u>My JavaScript Gaming Projects</u></h2>
+  <h2 style="color:whitesmoke"><u>Beginner JS Gaming Projects</u></h2>
   <br><br>
  
   <div  >
 
-    <a href="http://127.0.0.1:5500/2.%20Ch9.html" target="_blank"> 
+    <a href="2. Ch9 (Calculator)/2. Ch9.html" target="_blank"> 
       <div class="col-sm-3" >
       <h4 ><u>JS Super Calculator</u></h4>
-      <img src="images/Super-Calculator.png" class="img-responsive" style="width:100%" alt="JS Super Calculator">
+      <img src="images/Super Calculator.png" class="img-responsive" style="width:100%" alt="JS Super Calculator">
     </div>
   </a>
 
-      <a href="http://127.0.0.1:5500/2.%20Ch12.html" target="_blank"> 
+      <a href="2. Ch12 (Train Animation)/2. Ch12.html" target="_blank"> 
         <div class="col-sm-3" >
           <h4 ><u>Train Animation</u></h4>
-          <img src="images/TrainAnimation.png" class="img-responsive" style="width:100%" alt="Train Animation">
+          <img src="images/Train Animation.png" class="img-responsive" style="width:100%" alt="Train Animation">
         </div>
       </a>
+
     <!-- <div class="col-sm-3">
       <h4><u>Mr Robot Man</u></h4>
       <img src="images/MrRobotMan.png" class="img-responsive" style="width:100%" alt="Mr Robot Man">
     </div> -->
+
     <!-- <div class="col-sm-3" > 
       <h4><u>Animated Robot Man</u> </h4>
       <img src="images/AnimatedRobotMan.png" class="img-responsive" style="width:100%" alt="Animated Robot Man">
     </div> -->
+
     <!-- <div class="col-sm-3"> 
       <h4> <u> A Story Game of Words</u> </h4>
       <img src="images/StoryWordGame.png" class="img-responsive" style="width:100%" alt="Story Word Game">
     </div> -->
-    <!-- <div class="col-sm-3">
-      <h4> <u>Your Wish List</u> </h4>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="A Wish List">
-    </div> -->
-    <!-- <div class="col-sm-3">
+
+    <a href= "2. Ch13 (Wish List Program)/2. Ch13.html" target="_blank">
+    <div class="col-sm-3">
+      <h4> <u>Make Your Wish List</u> </h4>
+      <img src="images/Wish List.png" class="img-responsive" style="width:100%" alt="A Wish List">
+    </div>
+  </a>
+ <
+    <div class="col-sm-3">
       <h4><u>Pizzeria</u></h4>
       <img src="images/Pizzeria.png" class="img-responsive" style="width:100%" alt="Pizzeria">
-    </div> -->
-    <a href="http://127.0.0.1:5503/2.%20Ch16.html" target="_blank"> 
+    </div>
+    
+    <a href="2. Ch16 (Martian Rescue Game)/2. Ch16.html" target="_blank"> 
       <div class="col-sm-3">
         <h4><u>Martian Rescue Game</u></h4>
         <img src="images/MartianRescueGame.png" class="img-responsive" style="width:100%" alt="Martian Rescue Game">
@@ -122,7 +155,7 @@
         <h4><u>Sandwich Bar App</u></h4>
         <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Sandwich Bar App">
       </div> -->
-    <a href="http://127.0.0.1:5506/2.%20Ch19.html" target="_blank">
+    <a href="2. Ch19 (Lemonade-stand Program)/2. Ch19.html" target="_blank">
       <div class="col-sm-3">
         <h4><u>Lemonade-Stand Business</u></h4>
         <img src="images/Lemonade Stand.png" class="img-responsive" style="width:100%" alt="Lemonade-Stand App">
@@ -135,8 +168,8 @@
 </div><br><br>
 
 <footer class="container-fluid text-center">
-  <h4> Get in touch {=^_^=}!</h4>
-  <p>Orkney, North West, South Africa <br> Tel : +27 72 261 1963 <br> Email : septemberbhabha@gmail.com <br> </p>
+
+  <p>Orkney Vaal, North West, South Africa <br> Tel : +27 72 261 1963 <br> Email : septemberbhabha@gmail.com <br> </p>
 </footer>
 
 </body>
