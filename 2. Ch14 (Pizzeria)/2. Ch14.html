@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2. Ch14 (PIZZA)</title>
+    <link rel="stylesheet" href="2. Ch14.css" />
+  </head>
+
+  <body>
+    <h1>2. Ch14 : THE 'IF...ELSE' STATEMENT (PIZZA STORE)</h1>
+    <hr />
+
+    <h1>JavaScript Pizzeria</h1>
+    <p> Place your order {^_^} </p>
+
+    <div id="orderForm">
+      <label> How many pizzas do you want?
+        <input type="number" id="numPizzas" />
+      </label>
+
+      <br />
+      <br />
+
+      <label> Select a type of pizza:
+        <select id="typePizza">
+            <option value="cheese">Cheese</option>
+            <option value="pepperoni">Pepperoni</option>
+            <option value="supreme">Supreme</option>
+        </select>
+      </label>
+
+      <br />
+      <br />
+      
+      <label>Where do you live?
+        <select id="deliveryCity">
+            <option value="Anytown">Anytown</option>
+            <option value="Sacramento">Sacramento</option>
+            <option value="Beverly Hills">Beverly Hills</option>
+        </select>
+      </label>
+
+      <br />
+      <br />
+
+      <label>Is it your birthday?
+        <select id="birthday">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </label>
+
+      <br />
+      <br />
+
+      <button type="button" id="placeOrder">Place Order</button>
+    </div>
+    <div id="displayTotal"></div>
+
+    <script src="2. Ch14.js"></script>
+  </body>
+</html>
